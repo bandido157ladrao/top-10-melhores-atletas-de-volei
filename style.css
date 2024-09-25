@@ -19,8 +19,7 @@
 body{
     background-color: var(--azul);
     font-family: var(--fonte-texto);
-    color: var(--preto)
-    height: 100vh; 
+    color: var(--preto) 
 }
 
 header{
