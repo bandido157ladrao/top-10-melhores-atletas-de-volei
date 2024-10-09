@@ -19,7 +19,7 @@ async function criarGraficoBarra() {
     grafico.className = "grafico";
     document.getElementById("caixa-grafico").appendChild(grafico);
     
-    Plotly.newPlot(grafico, data); // Cria o gráfico
+    Plotly.newPlot(grafico, data); 
 }
 
 criarGraficoBarra();

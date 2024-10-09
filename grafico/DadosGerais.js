@@ -13,7 +13,7 @@ async function vizualizarInformacoes() {
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('caixa-grafico__texto');
 
-    paragrafo.innerHTML = `Em busca de saber quem são os melhores jogadores de vôlei do mundo, foi realizada uma série de pesquisas de diferentes fontes. Com auxílio do ChatGPT, foi possível estimar que o jogador mais destacado foi <span>${jogadorName}</span>, com o rank <span>${jogadorRank}</span> e representando o país <span>${jogadorCountry}</span>.`;
+    paragrafo.innerHTML = `Em busca de saber quem são os melhores jogadores de vôlei do mundo, foi realizada uma série de pesquisas de diferentes fontes. foi possível estimar que o jogador mais destacado foi <span>${jogadorName}</span>, com o rank <span>${jogadorRank}</span> e representando o país <span>${jogadorCountry}</span>.`;
 
 
     const caixa = document.getElementById('caixa-grafico')

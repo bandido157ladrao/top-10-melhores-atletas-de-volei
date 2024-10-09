@@ -7,12 +7,12 @@
 }
 
 :root {
-    --azul-claro: #90caf9;  /* Azul claro */
-    --azul-escuro: #1e88e5; /* Azul escuro */
-    --amarelo: #ffeb3b;     /* Amarelo */
+    --azul-claro: #90caf9;  
+    --azul-escuro: #1e88e5; 
+    --amarelo: #ffeb3b;     
     --branco: #ffffff; 
     --preto: #333333; 
-    --font-titulo: "Rubik", sans-serif; /* Fonte arredondada */
+    --font-titulo: "Rubik", sans-serif; 
 }
 
 body {
@@ -27,7 +27,7 @@ header {
     background-color: var(--azul-escuro);
     text-align: center;
     padding: 2rem 0;
-    border-bottom-left-radius: 50px; /* Bordas arredondadas */
+    border-bottom-left-radius: 50px; 
     border-bottom-right-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -51,9 +51,9 @@ nav a {
     font-size: 1.5rem;
     margin: 0 2rem;
     padding: 0.5rem 1rem;
-    border-radius: 25px; /* Bordas arredondadas */
+    border-radius: 25px; 
     transition: background-color 0.3s, transform 0.3s;
-    background-color: var(--azul-claro); /* Fundo azul claro */
+    background-color: var(--azul-claro); 
 }
 
 nav a:hover {
@@ -66,7 +66,7 @@ nav a:hover {
     margin: 5rem auto;
     max-width: 1200px;
     padding: 2rem;
-    border-radius: 25px; /* Bordas arredondadas */
+    border-radius: 25px; 
     background-color: var(--azul-claro);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -100,12 +100,12 @@ footer {
     height: 4rem;
     margin-top: 2rem;
     font-size: 1.5rem;
-    border-top-left-radius: 50px; /* Bordas arredondadas */
+    border-top-left-radius: 50px; 
     border-top-right-radius: 50px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
