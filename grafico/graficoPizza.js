@@ -1,4 +1,4 @@
-import { pegarCss } from "./comum.js";
+import { pegarCss } from "./comum";
 
 async function criarGraficoPizza() {
     
